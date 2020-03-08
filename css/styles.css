@@ -2,13 +2,15 @@
 
 body{
     
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
+
 
 #main{
     background-color: #ededed;
     /* background-color: #9b8eab; */
     margin: 40px 3px;
+    padding: 0 15px;
     border-radius: 5px;
 }
 
@@ -26,17 +28,24 @@ body{
 
 #img-div{
     /* background-color: #fffdeb; */
-    background-color: white;
-    display: block; 
+    /* background-color: white;
+    /* display: block;  */
     text-align: center;
-    margin: 0 20px 0 20px; 
+    /* margin: 0 20px 0 20px; 
     padding: 10px 0;
+    max-width: 100%; */ 
+
+    background: white;
+    padding: 10px;
+    margin: 0;
 }
 
 img{
     margin: auto;
     filter: grayscale(80%);
-    padding: 10px;
+    /* padding: 10px; */
+    max-width: 100%;
+    height: auto;
 }
 
 #tribute-info{
@@ -47,8 +56,8 @@ img{
 }
 
 #tribute-info ul, #tribute-heading{
-    width: 25vw;
-    margin: auto;
+    max-width: 500px;
+    margin: 0 auto 0 auto;
 }
 
 #tribute-heading{
@@ -58,6 +67,7 @@ img{
 
 #tribute-info li{
     padding-bottom: 20px;
+    color: rgb(41, 41, 41);
 }
 
 #tribute-link{
